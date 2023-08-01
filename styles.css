@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #171717;
+}
+
+.select-none {
+  user-select: none;
+}
+
+.drag-none {
+  -webkit-user-drag: none;
+}
+
+.container {
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #2c2c2c;
+  border-radius: 16px;
+}
+
+.featured-products, 
+.featured-testimonials {
+  height: 426px;
+  padding: 16px 0;
+}
+
+.featured-products {
+  background-color: #1d1d1d;
+}
+
+.featured-testimonials { 
+  background-color: #2d48a3;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-items {
+  display: flex;
+  gap: 16px;
+  overflow: hidden;
+}
+
+.carousel-item {
+  flex-shrink: 0;
+  width: 900px;
+  height: 426px;
+  overflow: hidden;
+  border-radius: 16px;
+  border: 2px solid #505050;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
